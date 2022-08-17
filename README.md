@@ -9,6 +9,10 @@
     - [ ] Dynamic Padding
     - [ ] Uniform Dynamic Padding
 
+#### Masked Language Modeling
+#### Whole Word Masking
+#### Replaced Token Detection
+
 #### Named Entity Recognition / Token Classification
 - Data
     - Tagging schemes
@@ -23,5 +27,13 @@
     - [ ] Lovasz Loss
     - [ ] Dice Loss
     - [ ] Combinations of losses
+
+- Post-Procsssing
+    - [ ] Correction over first and zero tokens
+    - [ ] Converting "middle" entities to the neighbors
+    - [ ] Filtering entities with lengths and confidence scores
+    - [ ] Adding some tokens to increase span's length
+    - [ ] Beam Search
+ 
 
 - [ ] Trainer
