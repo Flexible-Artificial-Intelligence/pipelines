@@ -14,11 +14,12 @@
 #### Replaced Token Detection
 
 #### Named Entity Recognition / Token Classification
-- Data
+- Pre-Processing
     - Tagging schemes
         - [ ] IO
         - [ ] BIO
         - [ ] BIEO
+    - [ ] Augmentations
 - Losses
     - [ ] Cross-Entropy
     - [ ] Weighted Cross-Entropy
@@ -27,6 +28,7 @@
     - [ ] Lovasz Loss
     - [ ] Dice Loss
     - [ ] Combinations of losses
+    - [ ] + Label Smoothing
 
 - Post-Procsssing
     - [ ] Correction over first and zero tokens
