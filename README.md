@@ -19,7 +19,10 @@
         - [ ] IO
         - [ ] BIO
         - [ ] BIEO
-    - [ ] Augmentations
+    - Augmentations
+        - [ ] CutMix
+        - [ ] Masking
+        - [ ] Removing context
 - Losses
     - [ ] Cross-Entropy
     - [ ] Weighted Cross-Entropy
