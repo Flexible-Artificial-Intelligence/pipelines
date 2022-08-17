@@ -3,10 +3,14 @@
 
 ## TO-DO
 
-#### Named Entity Recognition / Token Classification
+### Natural Language Processing
+
 - Data
     - [ ] Dynamic Padding
     - [ ] Uniform Dynamic Padding
+
+#### Named Entity Recognition / Token Classification
+- Data
     - Tagging schemes
         - [ ] IO
         - [ ] BIO
@@ -19,3 +23,5 @@
     - [ ] Lovasz Loss
     - [ ] Dice Loss
     - [ ] Combinations of losses
+
+- [ ] Trainer
