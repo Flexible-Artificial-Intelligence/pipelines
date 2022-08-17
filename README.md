@@ -39,6 +39,7 @@
     - [ ] Filtering entities with lengths and confidence scores
     - [ ] Adding some tokens to increase span's length
     - [ ] Beam Search
+    - [ ] Conditional Random Fields
  
 - Ensembling
     - [ ] Token-wise blending
@@ -48,3 +49,4 @@
     - [ ] Stacking
 
 - [ ] Trainer
+- [ ] Sliding window
