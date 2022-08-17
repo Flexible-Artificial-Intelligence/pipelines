@@ -21,6 +21,7 @@
         - [ ] BIEO
     - Augmentations
         - [ ] CutMix
+        - [ ] MixUp
         - [ ] Masking
         - [ ] Removing context
 - Losses
