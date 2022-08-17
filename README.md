@@ -1,0 +1,1 @@
+![Pipelines logo](assets/pipelines_logo.png)
