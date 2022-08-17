@@ -35,5 +35,11 @@
     - [ ] Adding some tokens to increase span's length
     - [ ] Beam Search
  
+- Ensembling
+    - [ ] Token-wise blending
+    - [ ] Word-wise blending
+    - [ ] Char-wise blending
+    - [ ] Weighted Box Fusion
+    - [ ] Stacking
 
 - [ ] Trainer
