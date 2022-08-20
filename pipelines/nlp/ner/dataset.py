@@ -27,6 +27,16 @@ class NERDataset(Dataset):
         if self.max_length is None:
             self.max_length = self.tokenizer.model_max_len
 
+        if self.entities is not None:
+            if self.spans is None:
+                raise ValueError(f"`spans` are required with entities.")
+            else:
+                assert len(self.entities) == len(self.spans) == len(self.texts)
+        
+        if self.labels is not None:
+            assert len(self.texts) == len(self.labels)
+
+
 
     def __getitem__(self, index: int) -> Dict[str, Any]:
         text = self.texts[index]
