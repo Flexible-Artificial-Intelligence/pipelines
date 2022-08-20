@@ -36,7 +36,7 @@ def _get_embeddings(outputs: ModelOutput):
 
 def sliding_window(model: PreTrainedModel, 
                    input_ids: Union[torch.Tensor, np.ndarray], 
-                   attention_mask: Optional[Union[torch.Tensor, np.ndarray]] = None, 
+                   attention_mask: Union[torch.Tensor, np.ndarray], 
                    window_size: int = 512,
                    edge_length: int = 64,
                    inner_length: Optional[int] = None,
